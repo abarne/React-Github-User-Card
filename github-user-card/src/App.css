@@ -1,0 +1,48 @@
+.App {
+	background-color: #24292e;
+	color: blanchedalmond;
+}
+
+a {
+	color: blanchedalmond;
+	text-decoration: underline;
+	font-size: 1.8rem;
+	margin-top: 15px;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+}
+
+.mainUser {
+	margin: 0 auto;
+	width: 400px;
+	text-align: center;
+}
+
+.followerCards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.followerCard {
+	width: 400px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.mainUser,
+.followerCard {
+	background-color: #2a3948;
+	padding: 30px;
+}
+
+.myFollowers {
+	text-align: center;
+	text-decoration: underline;
+}
