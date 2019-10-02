@@ -46,3 +46,23 @@ img {
 	text-align: center;
 	text-decoration: underline;
 }
+
+.search {
+	width: 550px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.search input {
+	font-size: 1.4rem;
+	color: blanchedalmond;
+	background-color: #2a3948;
+}
+
+.search button {
+	color: blanchedalmond;
+	background-color: #2a3948;
+	font-size: 1.4rem;
+	width: 200px;
+}

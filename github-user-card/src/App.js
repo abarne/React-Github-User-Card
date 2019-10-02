@@ -66,8 +66,10 @@ class App extends Component {
 					<UserCard user={this.state.user} />
 				</div>
 				<h1 className="myFollowers">My Followers</h1>
-				<input type="text" value={this.state.search} onChange={this.handleChanges} />
-				<button onClick={this.clearFollowers}>Search Followers</button>
+				<div className="search">
+					<input type="text" value={this.state.search} onChange={this.handleChanges} />
+					<button onClick={this.clearFollowers}>Search Followers</button>
+				</div>
 				<div className="followerCards">{this.state.follower.map((item) => <FollowerCard user={item} />)}</div>
 			</div>
 		);
