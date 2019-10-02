@@ -4,8 +4,8 @@ const FollowerCard = (props) => {
 	return (
 		<div className="followerCard">
 			<h1>Login: {props.user.login}</h1>
-			<img src={props.user.avatar_url} alt="User Profile Image" />
-			<a href={props.user.url}>Profile</a>
+			<img src={props.user.avatar_url} alt="User Profile" />
+			<a href={props.user.html_url}>Profile</a>
 		</div>
 	);
 };
